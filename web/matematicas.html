@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Matemáticas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Calculadora</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse">
+                      <div class="panel-body">
+                            <div class="panel-group">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" href="#collapse1">Realiza operaciones matemáticas</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                      <div class="panel-body">
+                                          <div class="form-group">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="opciones" id="opciones_1" value="femenino" checked>
+                                                            Suma
+                                                    </label>
+                                                 </div>
+                                                <div class="radio">
+                                                  <label>
+                                                    <input type="radio" name="opciones" id="opciones_2" value="masculino">
+                                                            Resta
+                                                  </label>
+                                                </div>
+                                              
+                                                <div class="radio">
+                                                  <label>
+                                                    <input type="radio" name="opciones" id="opciones_2" value="masculino">
+                                                            Multiplicación
+                                                  </label>
+                                                </div>
+                                                <div class="radio">
+                                                  <label>
+                                                    <input type="radio" name="opciones" id="opciones_2" value="masculino">
+                                                            División
+                                                  </label>
+                                                </div>
+
+                                      </div>
+                                      
+                                        <div class="form-group">
+                                            <label for="txtnombre">Número 1: </label>
+                                            <input type="number" id="numero1" class="form-control"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="txtnombre">Número 2: </label>
+                                            <input type="number" id="numero2" class="form-control"/>
+                                        </div>
+                                          <div class="form-group">
+                                            <label for="txtnombre">Resultado: </label>
+                                            
+                                        </div>
+                                    
+                                  </div>
+                                </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+    
+      
+          </div>
+       
+        </div>
+        </div>
+    </body>
+</html>

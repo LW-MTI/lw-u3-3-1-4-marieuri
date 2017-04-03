@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Ejercicio 3.1.4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Ejercicio 3.1.4</h2>
+  
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#informatica">INFORMÁTICA</a></li>
+    <li><a data-toggle="tab" href="#matematicas">MATEMÁTICAS</a></li>
+    <li><a data-toggle="tab" href="#quimica">QUÍMICA</a></li>
+    
+  </ul>
+
+  <div class="tab-content">
+    <div id="informatica" class="tab-pane fade in active">
+        
+	 <!-- -->
+	 <div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+				<h4 class="panel-title">
+				  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Microsoft Word</a>
+				</h4>
+			  </div>
+			  <div id="collapse1" class="panel-collapse collapse">
+				<div class="panel-body">
+					Microsoft Word es un programa informático orientado al procesamiento de textos. Fue creado por la empresa Microsoft, y 
+                                    viene integrado predeterminadamente en el paquete ofimático denominado Microsoft Office
+				</div>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+				<h4 class="panel-title">
+				  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Microsoft Excel</a>
+				</h4>
+			  </div>
+			  <div id="collapse2" class="panel-collapse collapse">
+				<div class="panel-body">Microsoft Excel es una aplicación de hojas de cálculo que forma parte de la suite de oficina Microsoft Office.
+                                     Es una aplicación utilizada en tareas financieras y contables, con fórmulas, 
+                                    gráficos y un lenguaje de programación.
+				</div>
+			  </div>
+			</div>
+			
+		</div> 
+	 <!-- -->
+    </div>
+    
+    <div id="matematicas" class="tab-pane fade">
+      <!-- 
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>-->
+       <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#calculadora">Calculadora</a>
+        </h4>
+      </div>
+      <div id="calculadora" class="panel-collapse collapse">
+        <div class="panel-body">
+			<div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="opciones" id="opciones_1" value="femenino" checked>
+                                    Suma
+                            </label>
+                         </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="opciones" id="opciones_2" value="masculino">
+                                    Resta
+                          </label>
+                        </div>
+
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="opciones" id="opciones_2" value="masculino">
+                                    Multiplicación
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="opciones" id="opciones_2" value="masculino">
+                                    División
+                          </label>
+                        </div>
+
+                   </div>
+                  <!-- -->
+		   <div class="form-group">
+                        <label for="txtnombre">Número 1: </label>
+                        <input type="number" id="numero1" class="form-control"/>
+                   </div>
+                  <div class="form-group">
+                        <label for="txtnombre">Número 2: </label>
+                        <input type="number" id="numero2" class="form-control"/>
+                  </div>
+                  <div class="form-group">
+                       <label for="txtnombre">Resultado: </label>
+                                            
+                  </div>
+                                    
+            </div>
+	 </div>
+     <div class="panel-footer">Realiza operaciones aritméticas</div>
+     </div>
+    </div>
+	  <!--fin matematicas -->
+    </div>
+    <div id="quimica" class="tab-pane fade">
+       <div>
+            <p class="col-md-2">Materia</p>
+            <p class="col-md-10">
+                Materia es todo lo que tiene masa y ocupa un lugar en el espacio. 
+                La Química es la ciencia que estudia su naturaleza, composición y 
+                transformación. Si la materia tiene masa y ocupa un lugar en el 
+                espacio significa que es cuantificable, es decir, que se puede medir.
+            </p>
+        </div>
+		<div>
+            <p class="col-md-2">Átomo</p>
+            <p class="col-md-10">
+                Un átomo es la unidad constituyente más pequeña de la materia que tiene las propiedades de un elemento químico.
+            </p>
+        </div>
+		<div>
+            <p class="col-md-2">Elemento</p>
+            <p class="col-md-10">
+                Un elemento químico es un tipo de materia constituida por átomos de la misma clase. En su forma más simple posee un número determinado de protones en su núcleo, haciéndolo pertenecer a una categoría única clasificada con el número atómico, aún cuando éste pueda desplegar distintas masas atómicas.
+            </p>
+        </div>
+		<div>
+            <p class="col-md-2">Compuesto</p>
+            <p class="col-md-10">
+                Compuestos químicos. En Química, un compuesto es una sustancia formada por la unión de dos o más elementos de la tabla periódica. Una característica esencial es que tiene una fórmula química. Por ejemplo, la cal es un compuesto formado por calcio y oxígeno en la razón de 1 a 1 (en número de átomos).
+            </p>
+        </div>
+		<!--fin de química -->
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
